@@ -1,6 +1,6 @@
 {
   "name": "coingecko-api-v3-defi",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The nodejs api library for accessing coingecko api v3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
