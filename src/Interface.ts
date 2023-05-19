@@ -272,12 +272,18 @@ export interface Image {
   large?: string;
 }
 
+export interface DecimalData {
+  decimal_place?: string;
+  contract_address?: string;
+}
+
 export interface CoinFullInfo {
   id?: string;
   symbol?: string;
   name?: string;
   asset_platform_id?: null;
   platforms?: PLATFORMS;
+  detail_platforms?: { [key: string]: DecimalData }
   block_time_in_minutes?: number;
   hashing_algorithm?: string;
   categories?: string[];

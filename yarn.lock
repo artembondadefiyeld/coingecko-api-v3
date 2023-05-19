@@ -2179,9 +2179,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"coingecko-api-v3@workspace:.":
+"coingecko-api-v3-defi@workspace:.":
   version: 0.0.0-use.local
-  resolution: "coingecko-api-v3@workspace:."
+  resolution: "coingecko-api-v3-defi@workspace:."
   dependencies:
     "@commitlint/cli": ^17.4.2
     "@commitlint/config-conventional": ^17.4.2
